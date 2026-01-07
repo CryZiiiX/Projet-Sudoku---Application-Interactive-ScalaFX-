@@ -1,0 +1,48 @@
+# Scala
+*.class
+*.log
+*.cache
+*.classpath
+*.project
+*.settings
+*.workspace
+.metals/
+.bloop/
+metals.sbt
+
+# SBT
+target/
+project/target/
+project/project/
+.history/
+.cache
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-CLI
+.scala-build/
+.scala/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Données générées (optionnel - à commenter si vous voulez les versionner)
+# data/
+# saves/
+
+# Fichiers temporaires
+*.tmp
+*.bak
+*.orig
+

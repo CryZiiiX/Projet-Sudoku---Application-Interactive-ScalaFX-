@@ -1,0 +1,678 @@
+{
+  "id": "f33900d7-33d8-4def-b359-9f481cd20439",
+  "puzzleId": "83d3729a-b1d2-491b-99cd-36a6bc77b9fe",
+  "grid": [
+    [
+      5,
+      2,
+      9,
+      6,
+      1,
+      3,
+      8,
+      7,
+      4
+    ],
+    [
+      1,
+      3,
+      7,
+      8,
+      4,
+      9,
+      6,
+      2,
+      5
+    ],
+    [
+      4,
+      6,
+      8,
+      7,
+      2,
+      5,
+      9,
+      3,
+      1
+    ],
+    [
+      7,
+      9,
+      2,
+      3,
+      8,
+      4,
+      5,
+      1,
+      6
+    ],
+    [
+      8,
+      5,
+      3,
+      1,
+      6,
+      7,
+      4,
+      9,
+      2
+    ],
+    [
+      6,
+      1,
+      4,
+      5,
+      9,
+      2,
+      3,
+      8,
+      7
+    ],
+    [
+      3,
+      4,
+      6,
+      9,
+      7,
+      1,
+      2,
+      5,
+      8
+    ],
+    [
+      2,
+      7,
+      5,
+      4,
+      3,
+      8,
+      1,
+      6,
+      9
+    ],
+    [
+      9,
+      8,
+      1,
+      2,
+      5,
+      6,
+      7,
+      4,
+      3
+    ]
+  ],
+  "fixedCells": [
+    [
+      2,
+      2
+    ],
+    [
+      8,
+      5
+    ],
+    [
+      6,
+      0
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      8,
+      6
+    ],
+    [
+      0,
+      7
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      7,
+      5
+    ],
+    [
+      6,
+      1
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      6,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      7,
+      7
+    ],
+    [
+      3,
+      8
+    ],
+    [
+      8,
+      8
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      7,
+      2
+    ],
+    [
+      7,
+      1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      8,
+      7
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      7,
+      3
+    ],
+    [
+      7,
+      0
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      0,
+      8
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      6,
+      6
+    ],
+    [
+      7,
+      6
+    ]
+  ],
+  "solution": [
+    [
+      5,
+      2,
+      9,
+      6,
+      1,
+      3,
+      8,
+      7,
+      4
+    ],
+    [
+      1,
+      3,
+      7,
+      8,
+      4,
+      9,
+      6,
+      2,
+      5
+    ],
+    [
+      4,
+      6,
+      8,
+      7,
+      2,
+      5,
+      9,
+      3,
+      1
+    ],
+    [
+      7,
+      9,
+      2,
+      3,
+      8,
+      4,
+      5,
+      1,
+      6
+    ],
+    [
+      8,
+      5,
+      3,
+      1,
+      6,
+      7,
+      4,
+      9,
+      2
+    ],
+    [
+      6,
+      1,
+      4,
+      5,
+      9,
+      2,
+      3,
+      8,
+      7
+    ],
+    [
+      3,
+      4,
+      6,
+      9,
+      7,
+      1,
+      2,
+      5,
+      8
+    ],
+    [
+      2,
+      7,
+      5,
+      4,
+      3,
+      8,
+      1,
+      6,
+      9
+    ],
+    [
+      9,
+      8,
+      1,
+      2,
+      5,
+      6,
+      7,
+      4,
+      3
+    ]
+  ],
+  "difficulty": "Facile",
+  "elapsedSeconds": 975,
+  "errorCount": 3,
+  "history": [
+    {
+      "actionType": "SET",
+      "row": 0,
+      "col": 1,
+      "oldValue": 0,
+      "newValue": 9
+    },
+    {
+      "actionType": "SET",
+      "row": 0,
+      "col": 1,
+      "oldValue": 9,
+      "newValue": 2
+    },
+    {
+      "actionType": "SET",
+      "row": 0,
+      "col": 2,
+      "oldValue": 0,
+      "newValue": 9
+    },
+    {
+      "actionType": "SET",
+      "row": 0,
+      "col": 3,
+      "oldValue": 0,
+      "newValue": 6
+    },
+    {
+      "actionType": "SET",
+      "row": 0,
+      "col": 5,
+      "oldValue": 0,
+      "newValue": 3
+    },
+    {
+      "actionType": "SET",
+      "row": 0,
+      "col": 6,
+      "oldValue": 0,
+      "newValue": 8
+    },
+    {
+      "actionType": "SET",
+      "row": 1,
+      "col": 0,
+      "oldValue": 0,
+      "newValue": 2
+    },
+    {
+      "actionType": "SET",
+      "row": 1,
+      "col": 0,
+      "oldValue": 2,
+      "newValue": 1
+    },
+    {
+      "actionType": "SET",
+      "row": 1,
+      "col": 4,
+      "oldValue": 0,
+      "newValue": 4
+    },
+    {
+      "actionType": "SET",
+      "row": 1,
+      "col": 5,
+      "oldValue": 0,
+      "newValue": 9
+    },
+    {
+      "actionType": "SET",
+      "row": 1,
+      "col": 6,
+      "oldValue": 0,
+      "newValue": 6
+    },
+    {
+      "actionType": "SET",
+      "row": 1,
+      "col": 7,
+      "oldValue": 0,
+      "newValue": 2
+    },
+    {
+      "actionType": "SET",
+      "row": 2,
+      "col": 1,
+      "oldValue": 0,
+      "newValue": 6
+    },
+    {
+      "actionType": "SET",
+      "row": 2,
+      "col": 4,
+      "oldValue": 0,
+      "newValue": 2
+    },
+    {
+      "actionType": "SET",
+      "row": 2,
+      "col": 5,
+      "oldValue": 0,
+      "newValue": 5
+    },
+    {
+      "actionType": "SET",
+      "row": 2,
+      "col": 6,
+      "oldValue": 0,
+      "newValue": 9
+    },
+    {
+      "actionType": "SET",
+      "row": 2,
+      "col": 8,
+      "oldValue": 0,
+      "newValue": 1
+    },
+    {
+      "actionType": "SET",
+      "row": 3,
+      "col": 0,
+      "oldValue": 0,
+      "newValue": 7
+    },
+    {
+      "actionType": "SET",
+      "row": 3,
+      "col": 1,
+      "oldValue": 0,
+      "newValue": 9
+    },
+    {
+      "actionType": "SET",
+      "row": 3,
+      "col": 4,
+      "oldValue": 0,
+      "newValue": 8
+    },
+    {
+      "actionType": "SET",
+      "row": 3,
+      "col": 5,
+      "oldValue": 0,
+      "newValue": 4
+    },
+    {
+      "actionType": "SET",
+      "row": 3,
+      "col": 7,
+      "oldValue": 0,
+      "newValue": 1
+    },
+    {
+      "actionType": "SET",
+      "row": 4,
+      "col": 1,
+      "oldValue": 0,
+      "newValue": 5
+    },
+    {
+      "actionType": "SET",
+      "row": 4,
+      "col": 2,
+      "oldValue": 0,
+      "newValue": 3
+    },
+    {
+      "actionType": "SET",
+      "row": 4,
+      "col": 3,
+      "oldValue": 0,
+      "newValue": 1
+    },
+    {
+      "actionType": "SET",
+      "row": 4,
+      "col": 6,
+      "oldValue": 0,
+      "newValue": 4
+    },
+    {
+      "actionType": "SET",
+      "row": 4,
+      "col": 8,
+      "oldValue": 0,
+      "newValue": 2
+    },
+    {
+      "actionType": "SET",
+      "row": 5,
+      "col": 4,
+      "oldValue": 0,
+      "newValue": 9
+    },
+    {
+      "actionType": "SET",
+      "row": 5,
+      "col": 6,
+      "oldValue": 0,
+      "newValue": 3
+    },
+    {
+      "actionType": "SET",
+      "row": 5,
+      "col": 8,
+      "oldValue": 0,
+      "newValue": 7
+    },
+    {
+      "actionType": "SET",
+      "row": 6,
+      "col": 3,
+      "oldValue": 0,
+      "newValue": 9
+    },
+    {
+      "actionType": "SET",
+      "row": 6,
+      "col": 5,
+      "oldValue": 0,
+      "newValue": 1
+    },
+    {
+      "actionType": "SET",
+      "row": 6,
+      "col": 7,
+      "oldValue": 0,
+      "newValue": 5
+    },
+    {
+      "actionType": "SET",
+      "row": 7,
+      "col": 4,
+      "oldValue": 0,
+      "newValue": 3
+    },
+    {
+      "actionType": "SET",
+      "row": 8,
+      "col": 0,
+      "oldValue": 0,
+      "newValue": 9
+    },
+    {
+      "actionType": "SET",
+      "row": 8,
+      "col": 0,
+      "oldValue": 9,
+      "newValue": 8
+    },
+    {
+      "actionType": "SET",
+      "row": 8,
+      "col": 0,
+      "oldValue": 8,
+      "newValue": 9
+    },
+    {
+      "actionType": "SET",
+      "row": 8,
+      "col": 1,
+      "oldValue": 0,
+      "newValue": 8
+    },
+    {
+      "actionType": "SET",
+      "row": 8,
+      "col": 2,
+      "oldValue": 0,
+      "newValue": 1
+    },
+    {
+      "actionType": "SET",
+      "row": 8,
+      "col": 3,
+      "oldValue": 0,
+      "newValue": 2
+    },
+    {
+      "actionType": "SET",
+      "row": 8,
+      "col": 4,
+      "oldValue": 0,
+      "newValue": 5
+    }
+  ],
+  "historyIndex": 41,
+  "savedAt": "2026-01-06T13:25:41.852565412Z"
+}

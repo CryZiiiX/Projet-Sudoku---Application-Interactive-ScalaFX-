@@ -1,0 +1,186 @@
+#==============================================================================
+# Nom     : REQUIREMENTS.txt
+# Role    : Documentation des prerequis systeme pour le projet Sudoku
+# Auteur  : Maxime BRONNY
+# Version : V1
+# Licence : Realise dans le cadre du cours Programmation concurrente - M1 Informatique Big Data
+#==============================================================================
+
+#==============================================================================
+# 1. PREREQUIS SYSTEME
+#==============================================================================
+
+Les outils suivants doivent etre installes sur votre systeme :
+
+[Java JDK 17 ou superieur]
+  - Requis pour executer le code Scala et l'interface JavaFX
+  - Version minimale : Java 17
+  - Version recommandee : Java 17 ou 21
+
+[Scala-CLI]
+  - Outil de build et d'execution pour projets Scala
+  - Version recommandee : derniere version stable
+  - Site officiel : https://scala-cli.virtuslab.org/
+
+[Systemes d'exploitation supportes]
+  - Linux (Ubuntu, Debian, Fedora, etc.)
+  - macOS
+  - Windows 10/11
+
+
+#==============================================================================
+# 2. DEPENDANCES SCALA (gerees automatiquement)
+#==============================================================================
+
+Les dependances suivantes sont automatiquement telechargees par Scala-CLI
+lors de la premiere compilation (definies dans src/project.scala) :
+
+[Langage et runtime]
+  - Scala 2.13.12
+  - Java 17
+
+[Interface graphique]
+  - ScalaFX 21.0.0-R32
+  - OpenJFX 21 :
+    * javafx-controls
+    * javafx-graphics
+    * javafx-base
+    * javafx-media
+
+[Serialisation]
+  - uPickle 3.1.3
+
+[Tests]
+  - ScalaTest 3.2.17
+
+Note : Aucune installation manuelle de ces dependances n'est necessaire.
+
+
+#==============================================================================
+# 3. INSTRUCTIONS D'INSTALLATION
+#==============================================================================
+
+[Installation de Java 17]
+
+  Linux (Ubuntu/Debian) :
+    sudo apt update
+    sudo apt install openjdk-17-jdk
+    java -version
+
+  Linux (Fedora) :
+    sudo dnf install java-17-openjdk-devel
+    java -version
+
+  macOS :
+    brew install openjdk@17
+    java -version
+
+  Windows :
+    Telecharger depuis : https://adoptium.net/
+    Installer et ajouter au PATH
+    Verifier : java -version
+
+
+[Installation de Scala-CLI]
+
+  Linux/macOS :
+    curl -sSLf https://scala-cli.virtuslab.org/get | sh
+    
+  Ou via Coursier :
+    cs install scala-cli
+    
+  Windows :
+    Installer via : https://scala-cli.virtuslab.org/install
+    
+  Verification :
+    scala-cli version
+
+
+[Verification des installations]
+
+  Verifier Java :
+    java -version
+    # Doit afficher version 17 ou superieure
+
+  Verifier Scala-CLI :
+    scala-cli version
+    # Doit afficher la version installee
+
+
+#==============================================================================
+# 4. COMPILATION ET EXECUTION
+#==============================================================================
+
+[Compilation du projet]
+  cd /chemin/vers/PROJET_SUDOKU
+  scala-cli compile src/
+
+[Execution de l'application]
+  scala-cli run src/ --main-class sudoku.ui.MainApp
+
+[Execution des tests]
+  scala-cli test src/
+
+[Nettoyage du cache de compilation]
+  rm -rf .scala-build
+
+
+#==============================================================================
+# 5. STRUCTURE DU PROJET
+#==============================================================================
+
+PROJET_SUDOKU/
+├── src/
+│   ├── main/scala/sudoku/
+│   │   ├── Main.scala
+│   │   ├── model/          (Modeles de donnees)
+│   │   ├── logic/          (Logique metier)
+│   │   ├── persistence/    (Sauvegarde/Chargement)
+│   │   └── ui/             (Interface graphique)
+│   ├── test/scala/sudoku/  (Tests unitaires)
+│   └── project.scala       (Configuration Scala-CLI)
+├── data/                   (Donnees generees : catalogue)
+├── saves/                  (Sauvegardes de parties)
+└── REQUIREMENTS.txt        (Ce fichier)
+
+
+#==============================================================================
+# 6. NOTES IMPORTANTES
+#==============================================================================
+
+- La premiere compilation peut prendre quelques minutes (telechargement des dependances)
+- Les dependances sont mises en cache et ne sont telechargees qu'une fois
+- L'application necessite un environnement graphique (serveur X11 sur Linux)
+- Pour Linux headless, installer : sudo apt install libgl1-mesa-glx libxtst6
+
+
+#==============================================================================
+# 7. RESOLUTION DES PROBLEMES COURANTS
+#==============================================================================
+
+[Erreur : "java.lang.UnsupportedClassVersionError"]
+  Solution : Installer Java 17 ou superieur
+
+[Erreur : "Not found: scalafx"]
+  Solution : Verifier que src/project.scala contient les directives //> using dep
+
+[Erreur : "Unsupported JavaFX configuration"]
+  Solution : Avertissement inoffensif, l'application fonctionne normalement
+
+[Erreur de compilation sur Linux]
+  Solution : Installer les bibliotheques graphiques :
+    sudo apt install libgl1-mesa-glx libxtst6 libxxf86vm1
+
+
+#==============================================================================
+# 8. CONTACT ET SUPPORT
+#==============================================================================
+
+Auteur  : Maxime BRONNY
+Cours   : Programmation concurrente - M1 Informatique Big Data
+Annee   : 2025-2026
+
+Pour toute question concernant l'installation ou l'execution du projet,
+consulter la documentation officielle de Scala-CLI :
+https://scala-cli.virtuslab.org/docs/overview
+
