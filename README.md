@@ -1,5 +1,7 @@
 # Projet Sudoku - Application Interactive ScalaFX
 
+![Présentation du projet](IED-M1-Page_de_présentation-Maxime-BRONNY.png)
+
 ## Informations generales
 
 | Champ | Valeur |
